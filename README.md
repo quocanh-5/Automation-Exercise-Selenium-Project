@@ -169,3 +169,55 @@ This project is built to:
 
 * Practice Selenium automation with real scenarios
 * Understand framework design (not just scripting)
+## 📄 Test Case Documentation
+
+All test scenarios are designed and documented before automation.
+
+👉 View full test case suite here:
+🔗 https://docs.google.com/spreadsheets/d/1FuP8PY3z1CGl0kWWtDUW-r-NdhWyukjXpDEmDx0-ISg/edit?usp=sharing
+
+---
+
+### 🧠 Test Design Approach
+
+The test cases are created based on:
+
+* Functional requirements from the website Automation Exercise
+* Real user flows (E2E scenarios)
+* Standard testing techniques:
+
+  * Boundary Value Analysis (BVA)
+  * Equivalence Partitioning
+  * Positive & Negative testing
+
+---
+
+### 📊 Coverage Summary
+
+The test suite includes:
+
+* 26 UI test cases covering:
+
+  * Authentication (Register, Login, Logout)
+  * Product & Search
+  * Cart & Checkout
+  * User interactions (Review, Subscription)
+  * Navigation & UI behavior
+
+
+### 🔗 Mapping: Test Case → Automation
+
+Each automated test in the framework corresponds to a test case ID:
+
+| Test Case ID  | Automation Class |
+| ------------- | ---------------- |
+| TC_01 - TC_05 | AuthTest         |
+| TC_06 - TC_07 | ContactTest      |
+| TC_08 - TC_13 | ProductTest      |
+| TC_14 - TC_24 | OrderTest        |
+| TC_25 - TC_26 | UIBehaviorTest   |
+
+---
+
+
+
